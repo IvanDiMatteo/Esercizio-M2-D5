@@ -26,32 +26,6 @@ REQUISITI:
 - la tua ricerca deve essere "case insensitive" (non deve essere influenzata da lettere maiuscole o minuscole nelle parole cercate)
 */
 
-
-// function jobSearcher(location, position) {
-//   const result = [];
-//   const regPosition = new RegExp(position, "i");
-//   const regLocation = new RegExp(location, "i");
-
-//   jobs.forEach((job) => {
-//     if (regPosition.test(job.position) && regLocation.test(job.location)) {
-//       result.push({
-//         title: job.title,
-//         location: job.location,
-//         position: job.position,
-//         salary: job.salary,
-//         type: job.type,
-//         category: job.category,
-//         date: job.date,
-//       });
-//     }
-//   });
-//   return { result, count: result.lenght };
-// }
-
-// let ciao = jobSearcher("US", "dev")
-
-// console.log(ciao);
-
 // NON MODIFICARE QUESTO ARRAY!
 const jobs = [
   {
